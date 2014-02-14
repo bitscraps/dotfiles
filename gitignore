@@ -1,0 +1,3 @@
+*.DS_Store
+.termrc
+lib/vendor/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/HTML/
