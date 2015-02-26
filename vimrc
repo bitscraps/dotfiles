@@ -75,13 +75,15 @@ if executable('ag')
 endif
 
 " Color scheme
-" colorscheme github
+colorscheme jellybeans
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
+"set textwidth=80
+let &colorcolumn="80,".join(range(101,999),",")
+
+" set colorcolumn=+1
 
 " Numbers
 set number
