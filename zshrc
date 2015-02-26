@@ -44,4 +44,4 @@ source $ZSH/oh-my-zsh.sh
   if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/bin:/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/heroku/bin:~/.composer/vendor/bin:$PATH"
