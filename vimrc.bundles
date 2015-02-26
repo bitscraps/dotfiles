@@ -31,7 +31,11 @@ if &compatible
   " Plugin 'vim-scripts/matchit.zip'
   " Plugin 'vim-scripts/tComment'
   "
-   if filereadable(expand("~/.vimrc.bundles.local"))
+
+  Plugin 'bling/vim-bufferline'
+  Plugin 'bling/vim-airline'
+
+  if filereadable(expand("~/.vimrc.bundles.local"))
      source ~/.vimrc.bundles.local
   endif
   "

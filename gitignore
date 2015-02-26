@@ -1,3 +1,4 @@
 *.DS_Store
+.ruby-version
 .termrc
 lib/vendor/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/HTML/
