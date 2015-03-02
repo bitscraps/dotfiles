@@ -14,6 +14,9 @@ DEFAULT_USER="grahamhadgraft"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b="bundle"
 alias be="bundle exec"
+alias git=hub
+alias zshreload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+alias pr="hub pull-request -b staging"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
