@@ -9,6 +9,8 @@ ZSH_THEME="agnoster"
 
 DEFAULT_USER="grahamhadgraft"
 
+eval $(thefuck --alias ffs)
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -17,6 +19,10 @@ alias be="bundle exec"
 alias git=hub
 alias zshreload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias pr="hub pull-request -b staging"
+alias dob="docker-compose build"
+alias dup="docker-compose up"
+alias dodo="docker-compose down"
+alias dbash="docker-compose exec app bash"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -48,3 +54,10 @@ source $ZSH/oh-my-zsh.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/bin:/usr/local/heroku/bin:~/.composer/vendor/bin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
